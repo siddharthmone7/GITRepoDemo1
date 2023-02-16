@@ -1,7 +1,7 @@
 
 public class AnswersForAssignment1 
 {
-	public static void Ouestion1Answer()
+	public void Ouestion1Answer()
 	{		
 		int n = 10;		
 		for(int i = 0 ; i < n ; i ++)
@@ -163,4 +163,9 @@ public class AnswersForAssignment1
 		}		
 	}
 
+	public void Ouestion2Answer()
+	{
+		
+	}
+	
 }
