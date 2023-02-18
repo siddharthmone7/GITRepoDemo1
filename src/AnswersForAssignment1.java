@@ -1,9 +1,10 @@
 
 public class AnswersForAssignment1 
 {
-	public void Ouestion1Answer()
+	
+	public void Question1Answer()
 	{		
-		int n = 10;		
+		int n = 7;		
 		for(int i = 0 ; i < n ; i ++)
 		{
 			// I
@@ -163,9 +164,99 @@ public class AnswersForAssignment1
 		}		
 	}
 
-	public void Ouestion2Answer()
+	public void Question2Answer()
 	{
-		
+		int n = 4;
+		for(int i = 1 ; i <= n; i++)
+		{
+			for(int j = 0 ; j < n; j++)
+			{
+				boolean a = true ;				
+				if( a )
+				{
+					System.out.print(i);
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}			
+			System.out.println();			
+		}
 	}
 	
+	public void Question3Answer()
+	{
+		int n = 13;
+		for(int i = 0 ; i < n; i++)
+		{
+			for(int j = 0 ; j < n; j++)
+			{
+				boolean e = (Boolean) ( i == 0 );
+				boolean f = (Boolean) (j == 0);
+				boolean a = (Boolean) (i + j <= (n-1)/2);
+				boolean b = (Boolean) (i == (n-1));
+				boolean c = (Boolean) (j - i >= (n-1)/2);
+				boolean d = (Boolean) (j == (n-1));
+				
+				if( e || f || a || b || c || d )
+				{
+					System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}			
+			System.out.println();			
+		}
+	}
+
+	public void Question4Answer()
+	{
+		int n = 11;
+		for(int i = 0 ; i < n; i++)
+		{
+			for(int j = 0 ; j < n; j++)
+			{				
+				boolean b = (Boolean) (i - j >= (n-1)/2);				
+				boolean d = (Boolean) (i + j >= (n-1) + (n-1)/2 );
+				
+				if( b  || d )
+				{
+					System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}			
+			System.out.println();			
+		}
+	}
+	
+	public void Question5Answer()
+	{
+		int n = 11;
+		for(int i = 0 ; i < n; i++)
+		{
+			for(int j = 0 ; j < n; j++)
+			{
+				boolean a = (Boolean) (i + j <= (n-1)/2);
+				boolean b = (Boolean) (i - j >= (n-1)/2);
+				boolean c = (Boolean) (i == 0 );
+				boolean d = (Boolean) (i == (n-1) );
+				
+				if( a || b || c || d )
+				{
+					System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}			
+			System.out.println();			
+		}
+	}
 }
