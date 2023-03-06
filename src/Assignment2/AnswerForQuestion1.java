@@ -3,8 +3,7 @@ package Assignment2;
 public class AnswerForQuestion1 
 {
 	public void findDuplicatesInArray()
-	{
-	    
+	{	    
         //Initialize array   
         int [] arr = { 1,2,2,4,3,3,4,2,7,8,8,3 };   
           
