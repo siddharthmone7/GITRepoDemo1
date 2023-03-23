@@ -42,18 +42,21 @@ public class MainAnswersForAssignment4 {
 		System.out.println("\n **************************Start-Answer 6****************************** \n ");
 		
 		AnswersForQuestion6 a6 = new AnswersForQuestion6();
+		a6.runCheckIfPangram();
 		
 		System.out.println("\n ******************************END*********************************** \n ");
 		
 		System.out.println("\n **************************Start-Answer 7****************************** \n ");
 		
 		AnswersForQuestion7 a7 = new AnswersForQuestion7();
+		a7.runCheckIfStringHasAllUniqueCharaters();
 		
 		System.out.println("\n ******************************END*********************************** \n ");
 		
 		System.out.println("\n **************************Start-Answer 8****************************** \n ");
 		
 		AnswersForQuestion8 a8 = new AnswersForQuestion8();
+		a8.runMaximumOccuringCharInString();
 		
 		System.out.println("\n ******************************END*********************************** \n ");
 	
